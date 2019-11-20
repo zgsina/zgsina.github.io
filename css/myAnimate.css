@@ -1,0 +1,364 @@
+@keyframes UpTodown{
+  0%{
+    bottom: 25px;
+  }
+  50%{
+    bottom: 0;
+  }
+  100%{
+    bottom: 25px;
+  }
+}
+
+@keyframes mybounceInLeft {
+  0% {
+    transform: translate(-250px, 0);
+  }
+
+  100% {
+    transform: translate(-150px, 0);
+  }
+}
+
+@keyframes Mydown {
+  0% {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes MyScale {
+  0% {
+    opacity: 0;
+    transform: scale(1.3)
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1)
+  }
+}
+
+@keyframes MyScale2 {
+  0% {
+    opacity: 0;
+    transform: scale(0)
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1)
+  }
+}
+
+
+.UpTodown{
+  animation: UpTodown 3s linear infinite ;
+}
+
+.mybounceInLeft {
+  animation: mybounceInLeft 0.3s linear;
+}
+
+.advantage:nth-child(1).animate {
+  animation: Mydown 1s linear;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+.advantage:nth-child(2).animate {
+  animation: Mydown 1s linear;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+.advantage:nth-child(3).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.9s;
+}
+.advantage:nth-child(4).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.1s;
+}
+.advantage:nth-child(5).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.3s;
+}
+#customized .advantage.animate {
+  animation: Mydown 1s linear;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+
+.authentication.animate{
+
+  animation: MyScale 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+#customized .content.animate {
+  animation: MyScale2 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes centerElement{
+  0%{
+   opacity: 0;
+   transform: translateX(-50%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes centerElement2 {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+#customized .wrap .img-content .item-content:nth-child(2).animate{
+  animation: centerElement 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+#customized .wrap .img-content .item-content:nth-child(3).animate {
+  animation: centerElement2 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+#customized .wrap .img-content .item-content:nth-child(1).animate {
+  animation: centerElement 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.4s;
+}
+#customized .wrap .img-content .item-content:nth-child(4).animate {
+  animation: centerElement2 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.4s;
+}
+
+@keyframes ScaleSmail {
+  0% {
+    transform: scale(0);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#effect .bg-item.animate {
+  animation: Mydown 0.5s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+#effect .Box.animate {
+  animation: ScaleSmail 0.75s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2.3s;
+}
+@keyframes width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width:80%
+  }
+}
+#effect .tabbar.animate {
+  animation: width 0.3s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3.2s;
+}
+@keyframes MyUp2{
+  0%{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+#effect .tab.wrap.animate {
+  animation: MyUp2 0.5s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3.5s;
+}
+
+#effect .title.animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay:0s;
+}
+#effect .six-item:nth-child(1).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay:1s;
+}
+#effect .six-item:nth-child(2).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+#effect .six-item:nth-child(3).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.4s;
+}
+#effect .six-item:nth-child(4).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+}
+#effect .six-item:nth-child(5).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+#effect .six-item:nth-child(6).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+@keyframes width2{
+0%{
+  width: 0;
+}
+100%{
+  width: 80px;
+}
+}
+@keyframes width3 {
+0% {
+  width: 0;
+}
+
+100% {
+  width: 200px;
+}
+}
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+#effect .lines.animate .left {
+  animation: width2 0.5s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+
+#effect .lines.animate .right {
+  animation: width3 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+#effect .banner-box:nth-child(1).animate{
+  animation: rotate 0.5s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+#effect .banner-box:nth-child(2).animate {
+  animation: rotate 0.5s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3.2s;
+}
+#effect .banner-box:nth-child(3).animate {
+  animation: rotate 0.5s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3.5s;
+}
+#effect .banner-box:nth-child(4).animate {
+  animation: rotate 0.5s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 3.7s;
+}
+@keyframes showItem{
+  0%{
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes showItem2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+#effect .news .news-item:nth-child(1).animate {
+  animation: showItem2 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+#effect .news .news-item:nth-child(2).animate {
+  animation: showItem 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+#effect .news .news-item:nth-child(3).animate {
+  animation: showItem2 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+#effect .news .news-item:nth-child(4).animate {
+  animation: showItem 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+
+#infoBox .info.wrap .info-item:nth-child(1).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+#infoBox .info.wrap .info-item:nth-child(2).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.25s;
+}
+#infoBox .info.wrap .info-item:nth-child(3).animate {
+  animation: Mydown 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+#banner .describe .title.animate{
+    animation: Mydown 1s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+#banner .describe .title-eng{
+      animation: Mydown 1s linear;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
+}
